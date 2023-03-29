@@ -1,0 +1,17 @@
+real cantidad_dolares, pesos
+real valor_dolar 
+
+
+inicio
+	valor_dolar <- 4750
+	escriba "hola, vamos a convertir dolares a pesos colombianos"
+	llamar nueva_linea
+	escriba "dime cuantos dolares tienes : "
+	lea cantidad_dolares
+	llamar nueva_linea
+	pesos<- valor_dolar*cantidad_dolares
+	escriba " tu tienes ", pesos, " pesos"
+	
+
+
+fin

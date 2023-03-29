@@ -1,0 +1,22 @@
+entero cateto1
+entero cateto2
+real hipotenusa
+
+inicio
+	escriba "calculemos la hipotenusa de un triangulo rectangulo"
+	llamar nueva_linea
+	escriba "ingresa el cateto 1: "
+	lea cateto1
+	llamar nueva_linea
+	escriba "ingresa el cateto 2: "
+	lea cateto2
+	hipotenusa <- (cateto1^2+cateto2^2)^(1/2)
+	llamar nueva_linea
+	escriba "_______________________________"
+	llamar nueva_linea
+	escriba "la hipotenusa es: ", hipotenusa
+
+
+
+
+fin

@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+88
+'hola, vamos a calcular las siguientes areas: triangulo, cuadrado, rectangulo y circulo'
+4
+1
+41
+'por favor ingresa la base del triangulo'
+5
+1
+5
+baseT
+4
+1
+33
+'ingresa la altura del triangulo'
+5
+1
+7
+alturaT
+4
+1
+28
+'ingresar lado del cuadrado'
+5
+1
+2
+lc
+4
+1
+32
+'ingresa la base del rectangulo'
+5
+1
+5
+baseR
+4
+1
+34
+'ingresa la altura del rectangulo'
+5
+1
+7
+alturaR
+4
+1
+30
+'ingresa el radio del circulo'
+5
+1
+1
+r
+6
+3
+9
+triangulo
+17
+(baseT*alturaT)/2
+8
+cuadrado
+4
+lc^2
+10
+rectangulo
+13
+baseR*alturaR
+6
+1
+7
+circulo
+8
+3.14*r^2
+4
+1
+170
+'el area del tringulo es: ' , triangulo , ' el area del cuadrado es : ' , cuadrado , ' el area del rectangulo es : ' , rectangulo , ' el area del circulo es : ' , circulo
+1

@@ -1,0 +1,26 @@
+real metros
+real pies
+real pulgadas
+
+
+inicio
+	escriba "vamos a convertir cierta cantidad de metros en pies y pulgadas"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba " ingresa la cantidad de metros: "
+	lea metros
+	
+	pies <- metros*3.28
+	
+	pulgadas <- metros*39.37
+	
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "el resultado es: "
+	llamar nueva_linea
+	escriba "*********************************"
+	llamar nueva_linea
+	escriba pies, " pies  --  ", pulgadas, " pulgadas"
+
+
+fin

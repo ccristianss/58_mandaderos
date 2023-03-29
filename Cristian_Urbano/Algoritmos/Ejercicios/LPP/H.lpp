@@ -1,0 +1,34 @@
+cadena [20] nombre
+real nota1, nota2, nota3, nota_definitiva, suma
+
+
+
+inicio
+
+	escriba "dime cual es tu nombre : "
+	llamar nueva_linea
+	lea nombre
+	llamar nueva_linea
+	escriba "hola ", nombre
+	llamar nueva_linea
+	escriba "***vamos a calcular tu nota definitiva***"
+	llamar nueva_linea
+	escriba "***para esto necesito tus 3 ultimas notas***"
+	llamar nueva_linea
+	escriba "dime la primera nota: "
+	lea nota1
+	llamar nueva_linea
+	escriba "dime la segunda nota: "
+	lea nota2
+	llamar nueva_linea
+	escriba "dime la tercera nota: "
+	lea nota3
+	llamar nueva_linea
+	escriba "ok, vamos a realizar el calculo.... "
+	
+	nota_definitiva <- (nota1+nota2+nota3)/3
+	llamar nueva_linea
+	escriba nombre, " tu nota final es: ", nota_definitiva
+
+
+fin

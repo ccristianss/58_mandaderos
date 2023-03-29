@@ -1,0 +1,26 @@
+cadena [20] nombre_empleado
+real horas_trabajadas, valor_hora, pago_mensual
+
+
+inicio
+
+	escriba "vamos a calcular el pago mensual de un trabajador"
+	llamar nueva_linea
+	escriba "escribe el nombre del empleado: "
+	lea nombre_empleado
+	llamar nueva_linea
+	escriba "dime cuantas horas trabajo en el mes: "
+	lea horas_trabajadas
+	llamar nueva_linea
+	escriba "cuanto es el pago por hora: "
+	lea valor_hora
+
+	pago_mensual <- horas_trabajadas*valor_hora
+	escriba "el pago de: ", nombre_empleado, " corresponde a: ", pago_mensual, "pesos"
+	
+	
+	
+	
+
+
+fin

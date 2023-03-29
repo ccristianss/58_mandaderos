@@ -1,0 +1,26 @@
+cadena [20] titulo_cancion
+
+
+inicio
+
+	escriba " hola, me puedes decir el titulo de una cancion de Andres Cepeda?: "
+	lea titulo_cancion
+	llamar nueva_linea
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "**!!**Andres Cepeda lo Mejor**¡¡**" 
+	llamar nueva_linea
+	escriba "**********************************"
+	llamar nueva_linea
+	escriba "          ", titulo_cancion
+	llamar nueva_linea
+	escriba "**********************************"
+	
+	
+
+	
+
+
+
+
+fin
