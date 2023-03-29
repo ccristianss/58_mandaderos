@@ -1,5 +1,10 @@
 Todos los comandos van a empezar con git
 
+Configuracion inicial de GIT al instalar
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
 git status
 >Para saber el estado
 
@@ -20,3 +25,21 @@ git push
 
 git pull
 >Descargar los cambios realizados en el repositorio
+
+https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez
+
+https://git-scm.com/book/es/v2/Personalizaci%C3%B3n-de-Git-Configuraci%C3%B3n-de-Git
+
+
+
+
+git config --list
+>para mostrar todas las propiedades que Git ha configurado
+
+user.signingkey
+Si tienes costumbre de firmar tus etiquetas (tal y como se ha visto en Firmando tu trabajo), configurar tu clave de firma GPG puede facilitarte la labor. Puedes configurar tu clave ID de esta forma:
+
+git config --global user.signingkey <gpg-key-id>
+Ahora podrás firmar etiquetas sin necesidad de indicar tu clave cada vez en el comando git tag.
+
+git tag -s <tag-name>
