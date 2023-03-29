@@ -1,0 +1,22 @@
+Todos los comandos van a empezar con git
+
+git status
+>Para saber el estado
+
+git clone
+>para descargar una copia local de un repositorio
+> se le debe pasar la URL del repositorio que deseo clonar
+
+git add
+>para agregar los cambios localmente, todos los archivos o cambios realizados sobre la carpeta
+> se le debe pasar parametros, puede ser el nombre de un archivo especifico, o en caso de algo se puede poner punto (.) para añadir todos los cambios
+
+git commit
+>para crear un punto de control, guardar los cambios realizados hasta cierto punto o en cierto tiempo. son nodos donde puedo deshacer los cambios realizados
+>se le debe pasar el parametros -m "comentario", se recomienda colocar una descripcion de lo que se esta haciendo para identificar los cambios realizados en ese punto
+
+git push
+>toma los cambios realizados en cada commit y los sube al repositorio en la nube.
+
+git pull
+>Descargar los cambios realizados en el repositorio
