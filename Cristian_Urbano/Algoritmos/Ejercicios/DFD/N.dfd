@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+57
+'hola, vamos a convertir grados centigrados a fahrenheit'
+4
+1
+43
+'ingresa la cantidad de grados centigrados'
+5
+1
+2
+gc
+6
+1
+1
+f
+11
+(9/5)*gc+32
+4
+1
+46
+'el resultado es : ', f , ' grados fahrenheit'
+1

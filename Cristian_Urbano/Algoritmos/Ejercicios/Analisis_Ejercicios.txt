@@ -1,0 +1,129 @@
+a. Sumar dos números enteros leídos desde teclado y escribir el resultado en pantalla.
+
+inicio
+-solicitar entero a.
+-solicitar entero b.
+-calcular operacion: suma=a+b
+-mostrar resultado
+fin
+
+b. Un corredor de maratón (distancia 42,195 Km) ha recorrido la carrera en 2 horas 25 
+minutos. Se desea un algoritmo que calcule el tiempo medio en minutos por 
+kilómetro.
+inicio
+-solicitar distancia(42,195 km)
+-solicitar tiempo de carrera(2 horas 25 minutos)
+-calcular tiempo medio en minutos=tiempo total/distacia
+-mostrarresultado
+fin
+
+c. Escribir un algoritmo que calcule y escriba el cuadrado de un número leído desde el 
+teclado.
+
+inicio
+variable numero=a^2
+variable numero=a*a
+fin
+
+d. Determinar la hipotenusa de un triángulo rectángulo conocidas laslongitudes de los 
+catetos.
+
+inicio
+-solicitar las longitudes de los catetos
+-calcular la hipotenusa= raiz cuadrada(a^2+b^2)
+-mostrar resultado
+fin
+
+e. Se desea un algoritmo para convertir metros a pies y pulgadas (1 metro = 39.37 
+pulgadas, 1 pie = 12 pulgadas)
+
+inicio
+-1M=39.37 pulgadas
+-1P=12 pulgadas
+-1M=3.28 pies
+-algoritmo pulgadas=xmts*39.37
+-algoritmo pies= xmts*3.28 
+fin
+
+
+f. Juego: realizar un algoritmo que me permita adivinar el un numero aleatorio dado 
+por el programa
+
+
+g. Realizar un algoritmo que saque la asignación mensual devengada por un trabajador 
+se debe solicitar las horas trabajadas en el mes y el valor de la hora, se debe solicitar 
+el nombre del empleado. El algoritmo debe sacar el nombre del trabajador y lo que 
+gana.
+
+inicio
+-solicitar nombre
+-solicitar horas trabajadas
+-solicitar valor de la hora
+-mostrar:nomre, y el salario devengado: salario=horas trabajadas*valor de la hora
+fin
+
+h. Diseñar un algoritmo que pida tres notas y el nombre del estudiante y calcule su 
+definitiva, el algoritmo debe sacar El nombre y la definitiva.
+
+inicio
+-solicitar nota 1,2 y 3
+-solicitar nombre
+-calcular definitiva: definitiva= (nota1+nota2+nota3)/3
+-mostrar nombre y resultado
+fin
+
+i. Diseñar un algoritmo que solicite el nombre de la persona y el año de nacimiento 
+con ello calcularla edad del estudiante, el algoritmo debe sacar el nombre y su edad.
+
+inicio
+-solicitar nombre
+-solicitar año de nacimiento
+-calcular la edad: edad= año actual-año de nacimiento
+-mostrar nombre y resultado
+fin
+
+j. Diseña un algoritmo que convierta a pesos colombianos un valor ingresado en 
+dólares. (Buscar el valor actual del dólar)
+
+inicio
+-ingresar valor del dolar como constante(4764)
+-solicitar cantidad de dolares a convertir
+-calcular conversion: pesos= dolares*valor del dolar
+-mostrar resultado
+fin
+
+k. Diseña un algoritmo que calcule el área de un triángulo, el área de un cuadrado, el 
+área de un rectángulo y el área de un círculo, el algoritmo debe mostrar los 
+resultados de cada operación.
+
+inicio
+--solicitar los valores(bases,alturas,lados y radio)
+-calcular areas, area triangulo=(base*altura)/2, area de un cuadrado=L^2, area de un rectangulo=base*altura, area de un circulo=Pi*r^2
+-mostrar resultado
+fin
+
+l. Diseñar un algoritmo que convierta años a meses y meses a años.
+
+inicio
+-preguntar si la conversion a realizar es de años a meses o, meses a años
+-solicitar cantidad(meses o años)
+-calcular el resultado: años a meses= cantidad de años*12 , meses a años= cantidad de meses/12
+-mostrar resultado
+fin
+
+m. Diseñar un algoritmo que ingrese una canción de Andrés Cepeda y saque un 
+mensaje que diga "ANDRES CEPEDA LO MEJOR" y el nombre de la canción.
+
+inicio
+-solicitar el titulo de una cancion de andres cepeda
+-mostrar mensaje 'andres cepeda lo mejor' y el titulo ingresado
+fin
+
+n. Realizar la conversión de una temperatura dada en grados Centígrados a grados 
+Fahrenheit (Formula: F = (9/5) C + 32)
+
+inicio
+-solicitar la cantidad de grados fahrenheit
+-calcular la conversion
+-mostrar resultado
+fin

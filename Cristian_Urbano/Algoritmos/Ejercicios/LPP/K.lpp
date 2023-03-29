@@ -1,0 +1,52 @@
+real area_triangulo, area_cuadrado, area_rectangulo, area_circulo,base_triangulo,altura_triangulo,lado_cuadrado,base_rectangulo,altura_rectangulo,radio 
+
+
+inicio
+	
+	escriba " hola, vamos a calcular las siguientes areas: triangulo, cuadrado, rectangulo y circulo "
+	llamar nueva_linea
+	escriba " me vas a ayudar con los siguientes valores, ok: "
+	llamar nueva_linea
+	escriba " - dime cuanto mide la base del triangulo: "
+	lea base_triangulo
+	llamar nueva_linea
+	escriba " - dime cuanto mide su altura: "
+	lea altura_triangulo
+	llamar nueva_linea
+	escriba " - ahora dime cuanto mide un lado del cuadrado: "
+	lea lado_cuadrado
+	llamar nueva_linea 
+	escriba " * vamos bien, dime cuanto mide la base del rectangulo: "
+	lea base_rectangulo
+	llamar nueva_linea 
+	escriba " - cuanto mide su altuta: "
+	lea altura_rectangulo
+	llamar nueva_linea 
+	escriba " * un dato mas, cuanto mide el radio del circulo: "
+	lea radio
+	llamar nueva_linea 
+	llamar nueva_linea 
+	escriba " ok, ahora hagamos los calculos "
+	llamar nueva_linea 
+	llamar nueva_linea 
+	
+	area_triangulo <- (base_triangulo*altura_triangulo)/2
+	area_cuadrado <- lado_cuadrado^2
+	area_rectangulo <- base_rectangulo*altura_rectangulo
+	area_circulo <- 3.14*radio^2
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba " * el area del triangulo es: ", area_triangulo
+	llamar nueva_linea
+	escriba " * el area del cuadrado es: ", area_cuadrado
+	llamar nueva_linea
+	escriba " * el area del rectangulo es: ", area_rectangulo
+	llamar nueva_linea
+	escriba " * el area del circulo es: ", area_circulo
+	
+
+
+
+
+
+fin

@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+53
+'calculemos la hipotenusa de un triangulo rectangulo'
+4
+1
+33
+'ingresa el valor de los catetos'
+5
+1
+7
+cateto1
+5
+1
+7
+cateto2
+6
+1
+10
+hipotenusa
+25
+sqrt(cateto1^2+cateto2^2)
+4
+1
+30
+'el resultado es ' ,hipotenusa
+1

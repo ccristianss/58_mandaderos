@@ -1,0 +1,73 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+33
+'quieres convertir años a meses?'
+5
+1
+8
+decision
+7
+0
+1
+13
+decision='si'
+4
+1
+33
+'quieres convertir meses a años?'
+5
+1
+8
+decision
+7
+0
+1
+13
+decision='si'
+13
+4
+1
+30
+'ingresa la cantidad de meses'
+5
+1
+5
+meses
+6
+1
+4
+años
+8
+meses/12
+4
+1
+36
+'el resultado es :' , años , ' años'
+13
+13
+4
+1
+26
+'ingresar cantiad de años'
+5
+1
+4
+años
+6
+1
+5
+meses
+7
+años*12
+4
+1
+38
+'el resultado  es : ', meses, ' meses'
+13
+1

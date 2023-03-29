@@ -1,0 +1,35 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+84
+'calculemos el tiempo medio en minutos por kilometro, de un corredor de una maraton'
+4
+1
+45
+'la maraton tiene una distancia de 42.195 km'
+4
+1
+48
+'el corredor la termino en 2 horas y 25 minutos'
+6
+1
+13
+total_minutos
+9
+(2*60)+25
+6
+1
+11
+tiempoMedio
+20
+42.195/total_minutos
+4
+1
+31
+'el resultado es ', tiempoMedio
+1

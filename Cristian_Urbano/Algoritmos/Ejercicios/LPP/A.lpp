@@ -1,0 +1,19 @@
+entero numero_a
+entero numero_b
+entero suma
+
+inicio
+	escriba "vamos a realizar una suma"
+	llamar nueva_linea
+	escriba "*************************"
+	llamar nueva_linea
+	escriba "escribe un numero: "
+	lea numero_a
+	llamar nueva_linea
+	escriba "escribe otro numero: "
+	lea numero_b
+	suma <- numero_a+numero_b
+	llamar nueva_linea
+	escriba "el resultado de la suma es: ", suma
+	
+fin

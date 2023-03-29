@@ -1,0 +1,28 @@
+cadena [40] nombre
+entero fecha_nacimiento, edad, fecha_actual
+
+
+
+inicio
+	fecha_actual <- 2023
+	escriba "hola, cual es tu nombre: "
+	llamar nueva_linea
+	lea nombre
+	llamar nueva_linea
+	escriba "muy bien ", nombre
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "dime, en que año naciste? "
+	llamar nueva_linea
+	lea fecha_nacimiento
+	llamar nueva_linea
+	escriba "**---ok,vamos a calcular tu edad---** "
+	
+	edad <- fecha_actual-fecha_nacimiento
+	
+	llamar nueva_linea
+	escriba nombre, " tu actualmente tienes :  ", edad, " años"
+	
+
+
+fin

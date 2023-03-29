@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+32
+'hola, calculemos tus ganancias'
+4
+1
+19
+'ingresa tu nombre'
+5
+1
+6
+nombre
+4
+1
+30
+'ingresa tus horas trabajadas'
+5
+1
+5
+horas
+4
+1
+30
+'ingresar el valor de la hora'
+5
+1
+9
+valorHora
+6
+1
+7
+salario
+15
+horas*valorHora
+4
+1
+69
+'nombre de empleado: ',nombre,' salario mensual devengado: ', salario
+1

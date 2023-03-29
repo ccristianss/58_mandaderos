@@ -1,0 +1,57 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+43
+'hola, vamos a calcular tu nota definitiva'
+4
+1
+26
+'debes ingresar tus notas'
+4
+1
+8
+'nota 1'
+5
+1
+5
+nota1
+4
+1
+8
+'nota 2'
+5
+1
+5
+nota2
+4
+1
+8
+'nota 3'
+5
+1
+5
+nota3
+6
+1
+10
+definitiva
+21
+(nota1+nota2+nota3)/3
+4
+1
+19
+'cual es tu nombre'
+5
+1
+6
+nombre
+4
+1
+48
+'',nombre, ' tu nota dfinitiva es : ',definitiva
+1

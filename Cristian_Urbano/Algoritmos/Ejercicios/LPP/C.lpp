@@ -1,0 +1,19 @@
+entero x
+entero cuadrado
+
+
+
+
+inicio
+
+	escriba "calculemos el cuadrado de un numero"
+	llamar nueva_linea
+	escriba "digita un numero: "
+	lea x
+	
+	cuadrado <- x^2
+	
+	escriba "el cuadrado de tu numero es " , cuadrado
+
+
+fin

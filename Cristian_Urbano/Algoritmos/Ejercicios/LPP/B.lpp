@@ -1,0 +1,31 @@
+entero horas
+entero minutos
+entero totalMinutos
+real tiempoMedio
+
+
+inicio
+ 	horas <- 2
+ 	minutos <- 25
+	escriba "calculemos tiempo medio del corredor de una maraton en minutos por km "
+	llamar nueva_linea
+	escriba "la distancia de la maraton es de 42.195 km "
+	llamar nueva_linea
+	escriba "el corredor la termino en 2 horas y 25 minutos "
+	
+	totalMinutos <- (horas*60)+minutos
+	
+	tiempoMedio <- 42.195/totalminutos
+	llamar nueva_linea
+	
+	escriba "el tiempo medio es: ", tiempoMedio, "km por minuto"
+
+
+
+
+
+
+
+
+
+fin

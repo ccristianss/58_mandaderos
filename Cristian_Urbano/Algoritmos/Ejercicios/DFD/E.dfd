@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+44
+'vamos a convertir metros a pies y pulgadas'
+4
+1
+29
+'ingresar cantidad de metros'
+5
+1
+6
+metros
+6
+1
+4
+pies
+11
+metros*3.28
+6
+1
+8
+pulgadas
+12
+metros*39.37
+4
+1
+31
+'el resultado en pies es ',pies
+4
+1
+40
+'el resultado en pulgadas es ', pulgadas
+1

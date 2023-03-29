@@ -1,0 +1,25 @@
+entero grados_centigrados, fahrenheit
+
+
+inicio
+	escriba "hola vamos hacer una conversion de temperatura"
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "por favor dime cuantos grados centigrados vamos a convertir: "
+	lea grados_centigrados
+	llamar nueva_linea
+	fahrenheit <- (9/5)*grados_centigrados+32
+	llamar nueva_linea
+	escriba "la conversion se realizara en grados Fahrenheit ok, "
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "el resultado es : ", fahrenheit
+	
+	
+
+
+
+
+
+
+fin

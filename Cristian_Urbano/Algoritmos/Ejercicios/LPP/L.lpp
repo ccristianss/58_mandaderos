@@ -1,0 +1,24 @@
+cadena [20] respuesta
+entero anos, meses
+
+
+
+inicio
+	escriba " hola, que deseas hacer: covertir meses a años o años a meses ? "
+	lea respuesta
+	si respuesta = "meses" entonces
+	escriba " cuantos meses deseas convertir? "
+	fin si
+	llamar nueva_linea
+	lea meses
+	anos <- meses/12
+	llamar nueva_linea
+	escriba "la conversion es : ", anos, " años "
+	
+	
+	
+
+
+
+
+fin
