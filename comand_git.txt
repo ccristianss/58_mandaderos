@@ -43,3 +43,5 @@ git config --global user.signingkey <gpg-key-id>
 Ahora podrás firmar etiquetas sin necesidad de indicar tu clave cada vez en el comando git tag.
 
 git tag -s <tag-name>
+
+https://docs.github.com/es/get-started/getting-started-with-git/setting-your-username-in-git
